@@ -6,6 +6,7 @@
   <title>Thau Luna Studio — Onde cada detalhe conta!</title>
   <meta name="description" content="Thau Luna Studio: um ecossistema criativo que reúne produtos físicos, serviços digitais e projetos autorais. Onde cada detalhe conta!">
   <meta name="theme-color" content="#FFF7F1">
+  <script>try{var t=localStorage.getItem('thauluna-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23F7DCDC'/%3E%3Ctext x='50' y='68' font-size='55' text-anchor='middle'%3E🌙%3C/text%3E%3C/svg%3E">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
@@ -13,11 +14,13 @@
 </head>
 <body>
   <header class="brand-row"><div class="container brand-inner">
-    <a href="#inicio" class="header-logo" aria-label="Thau Luna Studio"><img src="logo-cereja.png" alt="Thau Luna Studio" height="56"></a>
+    <a href="#inicio" class="header-logo" aria-label="Thau Luna Studio"><img class="logo-light" src="logo-cereja.png" alt="Thau Luna Studio" height="56"><img class="logo-dark" src="logo-creme.png" alt="" height="56"></a>
     <a class="brand-banner" href="https://wa.me/5585987511775" target="_blank" rel="noopener"><span><strong>TL Design</strong>Sites e identidade visual para marcas</span><em>Solicite um orçamento</em></a>
   </div></header>
   <nav class="main-nav" aria-label="Principal"><div class="container nav-inner">
-    <div class="nav-links"><a href="#inicio" class="active">Início</a><a href="#galeria">Produtos</a><a href="#sobre">Sobre</a><a href="#produtos-servicos">Serviços</a><a href="#lunas-library">Luna's Library</a><a href="#identidade">Identidade</a><a href="#depoimentos">Avaliações</a><a href="#contato">Contato</a></div>
+    <button class="nav-burger" id="navBurger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks"><i class="ri-menu-line"></i><span>Menu</span></button>
+    <div class="nav-links" id="navLinks"><a href="#inicio" class="active">Início</a><a href="#galeria">Produtos</a><a href="#sobre">Sobre</a><a href="#produtos-servicos">Serviços</a><a href="#lunas-library">Luna's Library</a><a href="#identidade">Identidade</a><a href="#depoimentos">Avaliações</a><a href="#contato">Contato</a></div>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Ativar modo escuro"><i class="ri-moon-line"></i></button>
   </div></nav>
   <section class="hero" id="inicio"><div class="container hero-inner">
     <span class="hero-tag">Feito com carinho só pra você</span>
@@ -323,7 +326,7 @@
     </div>
   </section>
   <footer class="site-footer"><div class="container footer-inner">
-    <img src="logo-cereja.png" alt="Thau Luna Studio" height="48">
+    <img class="logo-light" src="logo-cereja.png" alt="Thau Luna Studio" height="48"><img class="logo-dark" src="logo-creme.png" alt="" height="48">
     <p>© 2025 <span>Thau Luna Studio</span> · Todos os direitos reservados · Onde cada detalhe conta!</p>
   </div></footer>
   <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo"><i class="ri-arrow-up-line"></i></button>

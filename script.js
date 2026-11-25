@@ -20,6 +20,41 @@ function switchImg(imgId, thumb, src) {
   thumb.classList.add('active');
 }
 
+// Menu hambúrguer (celular e tablet)
+const mainNav = document.querySelector('.main-nav');
+const navBurger = document.getElementById('navBurger');
+function setMenu(open) {
+  if (!mainNav || !navBurger) return;
+  mainNav.classList.toggle('open', open);
+  navBurger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  navBurger.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
+  navBurger.querySelector('i').className = open ? 'ri-close-line' : 'ri-menu-line';
+}
+if (navBurger) {
+  navBurger.addEventListener('click', () => setMenu(!mainNav.classList.contains('open')));
+  document.querySelectorAll('.nav-links a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+  document.addEventListener('click', e => { if (!mainNav.contains(e.target)) setMenu(false); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
+  window.addEventListener('resize', () => { if (window.innerWidth > 900) setMenu(false); });
+}
+
+// Tema claro/escuro (claro é o padrão; a escolha fica salva no navegador)
+const themeToggle = document.getElementById('themeToggle');
+function paintToggle(theme) {
+  if (!themeToggle) return;
+  themeToggle.innerHTML = theme === 'dark' ? '<i class="ri-sun-line"></i>' : '<i class="ri-moon-line"></i>';
+  themeToggle.setAttribute('aria-label', theme === 'dark' ? 'Ativar modo claro' : 'Ativar modo escuro');
+}
+if (themeToggle) {
+  paintToggle(document.documentElement.getAttribute('data-theme') || 'light');
+  themeToggle.addEventListener('click', () => {
+    const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    paintToggle(next);
+    try { localStorage.setItem('thauluna-theme', next); } catch (e) {}
+  });
+}
+
 // Voltar ao topo
 const backToTop = document.getElementById('backToTop');
 if (backToTop) backToTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
