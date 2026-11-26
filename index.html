@@ -12,38 +12,143 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
 </head>
+
 <body>
-  <header class="brand-row"><div class="container brand-inner">
-    <a href="#inicio" class="header-logo" aria-label="Thau Luna Studio"><img class="logo-light" src="logo-cereja.png" alt="Thau Luna Studio" height="56"><img class="logo-dark" src="logo-creme.png" alt="" height="56"></a>
-    <a class="brand-banner" href="https://wa.me/5585987511775" target="_blank" rel="noopener"><span><strong>TL Design</strong>Sites e identidade visual para marcas</span><em>Solicite um orçamento</em></a>
-  </div></header>
-  <nav class="main-nav" aria-label="Principal"><div class="container nav-inner">
-    <button class="nav-burger" id="navBurger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks"><i class="ri-menu-line"></i><span>Menu</span></button>
-    <div class="nav-links" id="navLinks"><a href="#inicio" class="active">Início</a><a href="#galeria">Produtos</a><a href="#sobre">Sobre</a><a href="#produtos-servicos">Serviços</a><a href="#lunas-library">Luna's Library</a><a href="#identidade">Identidade</a><a href="#depoimentos">Avaliações</a><a href="#contato">Contato</a></div>
-    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Ativar modo escuro"><i class="ri-moon-line"></i></button>
-  </div></nav>
-  <section class="hero" id="inicio"><div class="container hero-inner">
-    <span class="hero-tag">Feito com carinho só pra você</span>
-    <h1 class="hero-title">Thau Luna Studio</h1>
-    <p class="hero-slogan">“Onde cada detalhe conta!”</p>
-    <p class="hero-desc">Um estúdio criativo que reúne produtos físicos, serviços digitais e projetos autorais, sempre com muito carinho em cada detalhe.</p>
-    <div class="hero-essencia"><span class="essencia-chip">Delicadeza</span><span class="essencia-chip">Criatividade</span><span class="essencia-chip">Carinho</span><span class="essencia-chip">Magia</span><span class="essencia-chip">Fé</span></div>
-    <a href="#galeria" class="hero-link">Ver produtos <i class="ri-arrow-right-s-line"></i></a>
-  </div></section>
-<section id="galeria"><div class="container"><span class="section-tag reveal">Nossos produtos</span><h2 class="section-title reveal">Produtos <em>Thau Luna</em></h2><p class="section-desc reveal">Conheça os produtos físicos criados com carinho e dedicação pelo estúdio.</p><div class="svc-grid"><article class="svc-card reveal"><div class="svc-thumb"><img src="pulseiras.png" alt="Pulseiras Personalizadas" loading="lazy"></div><h3>Pulseiras Personalizadas</h3><p class="svc-cat">Acessórios · Físico</p><p class="svc-desc">Sem nome · Inicial · Com nome · BFF Dupla</p><a class="btn-pill" href="https://thaulunastudio.lovable.app" target="_blank" rel="noopener">Ver produto</a></article><article class="svc-card reveal"><div class="svc-thumb"><img src="chaveiros.png" alt="Chaveiros Personalizados" loading="lazy"></div><h3>Chaveiros Personalizados</h3><p class="svc-cat">Acessórios · Físico</p><p class="svc-desc">Spotify · Data especial · Foto · Versículo</p><a class="btn-pill" href="https://thaulunastudio.lovable.app" target="_blank" rel="noopener">Ver produto</a></article><article class="svc-card reveal"><div class="svc-thumb"><img src="box-surprise.webp" alt="Box Surprise Thau Luna" loading="lazy"></div><h3>Boxes Surprise</h3><p class="svc-cat">Especial · Físico</p><p class="svc-desc">Mini Box, Box Tradicional e Big Box Thau Luna</p><a class="btn-pill" href="https://thaulunastudio.lovable.app" target="_blank" rel="noopener">Ver produto</a></article><article class="svc-card reveal"><div class="svc-thumb"><img src="polaroidtrad.png" alt="Polaroid Tradicional" loading="lazy"></div><h3>Polaroid Tradicional</h3><p class="svc-cat">Foto · Personalizado</p><p class="svc-desc">Fotos estilo polaroid para guardar momentos</p><a class="btn-pill" href="https://thaulunastudio.lovable.app" target="_blank" rel="noopener">Ver produto</a></article><article class="svc-card reveal"><div class="svc-thumb"><img src="polaroidmini.png" alt="Polaroid Mini" loading="lazy"></div><h3>Polaroid Mini</h3><p class="svc-cat">Foto · Personalizado</p><p class="svc-desc">Pequena, fofa e perfeita para presentear</p><a class="btn-pill" href="https://thaulunastudio.lovable.app" target="_blank" rel="noopener">Ver produto</a></article><article class="svc-card reveal"><div class="svc-thumb"><img src="polaroidima.png" alt="Polaroid com Imã" loading="lazy"></div><h3>Polaroid com Imã</h3><p class="svc-cat">Foto · Personalizado</p><p class="svc-desc">Ideal para geladeira ou mural</p><a class="btn-pill" href="https://thaulunastudio.lovable.app" target="_blank" rel="noopener">Ver produto</a></article><article class="svc-card reveal"><div class="svc-thumb"><img src="bloquinhos.webp" alt="Bloquinhos de Nota Personalizados" loading="lazy"></div><h3>Bloquinhos de Nota Personalizados</h3><p class="svc-cat">Papelaria · Personalizado</p><p class="svc-desc">Anotações fofas, personalizadas</p><a class="btn-pill" href="https://thaulunastudio.lovable.app" target="_blank" rel="noopener">Ver produto</a></article></div></div></section>
-<section id="sobre">
+
+  <header class="brand-row">
+    <div class="container brand-inner">
+      <a href="#inicio" class="header-logo" aria-label="Thau Luna Studio">
+        <img class="logo-light" src="logo-cereja.png" alt="Thau Luna Studio" height="56">
+        <img class="logo-dark" src="logo-creme.png" alt="" height="56">
+      </a>
+      <a class="brand-banner" href="https://wa.me/5585987511775" target="_blank" rel="noopener">
+        <span><strong>TL Design</strong>Sites e identidade visual para marcas</span>
+        <em>Solicite um orçamento</em>
+      </a>
+    </div>
+  </header>
+
+  <nav class="main-nav" aria-label="Principal">
+    <div class="container nav-inner">
+      <button class="nav-burger" id="navBurger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks">
+        <i class="ri-menu-line"></i><span>Menu</span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#inicio" class="active">Início</a>
+        <a href="#galeria">Produtos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#produtos-servicos">Serviços</a>
+        <a href="#lunas-library">Luna's Library</a>
+        <a href="#identidade">Identidade</a>
+        <a href="#depoimentos">Avaliações</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Ativar modo escuro">
+        <i class="ri-moon-line"></i>
+      </button>
+    </div>
+  </nav>
+
+  <section class="hero" id="inicio">
+    <div class="container hero-inner">
+      <span class="hero-tag">Feito com carinho só pra você</span>
+      <h1 class="hero-title">Thau Luna Studio</h1>
+      <p class="hero-slogan">“Onde cada detalhe conta!”</p>
+      <p class="hero-desc">Um estúdio criativo que reúne produtos físicos, serviços digitais e projetos autorais, sempre com muito carinho em cada detalhe.</p>
+      <div class="hero-essencia">
+        <span class="essencia-chip">Delicadeza</span>
+        <span class="essencia-chip">Criatividade</span>
+        <span class="essencia-chip">Carinho</span>
+        <span class="essencia-chip">Magia</span>
+        <span class="essencia-chip">Fé</span>
+      </div>
+      <a href="#galeria" class="hero-link">Ver produtos <i class="ri-arrow-right-s-line"></i></a>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <div class="container">
+      <span class="section-tag reveal">Nossos produtos</span>
+      <h2 class="section-title reveal">Produtos <em>Thau Luna</em></h2>
+      <p class="section-desc reveal">Conheça os produtos físicos criados com carinho e dedicação pelo estúdio.</p>
+
+      <div class="svc-grid">
+
+        <article class="svc-card reveal">
+          <div class="svc-thumb"><img src="pulseiras.png" alt="Pulseiras Personalizadas" loading="lazy"></div>
+          <h3>Pulseiras Personalizadas</h3>
+          <p class="svc-cat">Acessórios · Físico</p>
+          <p class="svc-desc">Sem nome · Inicial · Com nome · BFF Dupla</p>
+          <a class="btn-pill" href="https://thauanneluna.github.io/ThauLunaStudio/" target="_blank" rel="noopener">Ver produto</a>
+        </article>
+
+        <article class="svc-card reveal">
+          <div class="svc-thumb"><img src="chaveiros.png" alt="Chaveiros Personalizados" loading="lazy"></div>
+          <h3>Chaveiros Personalizados</h3>
+          <p class="svc-cat">Acessórios · Físico</p>
+          <p class="svc-desc">Spotify · Data especial · Foto · Versículo</p>
+          <a class="btn-pill" href="https://thauanneluna.github.io/ThauLunaStudio/" target="_blank" rel="noopener">Ver produto</a>
+        </article>
+
+        <article class="svc-card reveal">
+          <div class="svc-thumb"><img src="box-surprise.webp" alt="Box Surprise Thau Luna" loading="lazy"></div>
+          <h3>Boxes Surprise</h3>
+          <p class="svc-cat">Especial · Físico</p>
+          <p class="svc-desc">Mini Box, Box Tradicional e Big Box Thau Luna</p>
+          <a class="btn-pill" href="https://thauanneluna.github.io/ThauLunaStudio/" target="_blank" rel="noopener">Ver produto</a>
+        </article>
+
+        <article class="svc-card reveal">
+          <div class="svc-thumb"><img src="polaroidtrad.png" alt="Polaroid Tradicional" loading="lazy"></div>
+          <h3>Polaroid Tradicional</h3>
+          <p class="svc-cat">Foto · Personalizado</p>
+          <p class="svc-desc">Fotos estilo polaroid para guardar momentos</p>
+          <a class="btn-pill" href="https://thauanneluna.github.io/ThauLunaStudio/" target="_blank" rel="noopener">Ver produto</a>
+        </article>
+
+        <article class="svc-card reveal">
+          <div class="svc-thumb"><img src="polaroidmini.png" alt="Polaroid Mini" loading="lazy"></div>
+          <h3>Polaroid Mini</h3>
+          <p class="svc-cat">Foto · Personalizado</p>
+          <p class="svc-desc">Pequena, fofa e perfeita para presentear</p>
+          <a class="btn-pill" href="https://thauanneluna.github.io/ThauLunaStudio/" target="_blank" rel="noopener">Ver produto</a>
+        </article>
+
+        <article class="svc-card reveal">
+          <div class="svc-thumb"><img src="polaroidima.png" alt="Polaroid com Imã" loading="lazy"></div>
+          <h3>Polaroid com Imã</h3>
+          <p class="svc-cat">Foto · Personalizado</p>
+          <p class="svc-desc">Ideal para geladeira ou mural</p>
+          <a class="btn-pill" href="https://thauanneluna.github.io/ThauLunaStudio/" target="_blank" rel="noopener">Ver produto</a>
+        </article>
+
+        <article class="svc-card reveal">
+          <div class="svc-thumb"><img src="bloquinhos.webp" alt="Bloquinhos de Nota Personalizados" loading="lazy"></div>
+          <h3>Bloquinhos de Nota Personalizados</h3>
+          <p class="svc-cat">Papelaria · Personalizado</p>
+          <p class="svc-desc">Anotações fofas, personalizadas</p>
+          <a class="btn-pill" href="https://thauanneluna.github.io/ThauLunaStudio/" target="_blank" rel="noopener">Ver produto</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre">
     <div class="container">
       <div class="sobre-grid">
         <div class="sobre-img-wrap reveal">
           <img src="avatar-studio.webp" alt="Thau Luna Studio" onerror="this.style.cssText='background:var(--nevoa);min-height:400px;border-radius:14px;';this.removeAttribute('src')">
           <div class="sobre-badge"><strong>2025</strong><span>desde</span></div>
         </div>
+
         <div class="sobre-content reveal">
           <span class="section-tag section-tag--left">Nossa história</span>
           <h2>Um estúdio criativo feito de <em>significado</em></h2>
           <p>A Thau Luna nasceu em 2025, como Thau Luna Acessórios, com o propósito de transformar pequenos detalhes em algo especial.</p>
           <p>A marca evoluiu e hoje é a Thau Luna Studio: um ecossistema criativo que reúne produtos físicos, como pulseiras, chaveiros, boxes e peças personalizadas, e serviços digitais, como criação de sites, design e identidade visual.</p>
           <p>Em tudo o que cria, o estúdio busca transmitir que os pequenos detalhes podem carregar grandes significados.</p>
+
           <div class="sobre-valores">
             <span class="valor-chip">✦ Carinho nos detalhes</span>
             <span class="valor-chip">✦ Criatividade</span>
@@ -55,71 +160,125 @@
       </div>
     </div>
   </section>
-<section id="mvv"><div class="container"><span class="section-tag reveal">Quem somos</span><h2 class="section-title reveal">Missão, Visão e <em>Valores</em></h2><div class="info-grid info-grid--3">
-<div class="info-card reveal"><span class="diferencial-icon"><i class="ri-focus-3-line"></i></span><h3>Missão</h3><p>Criar produtos e soluções delicados, criativos e personalizados que permitam às pessoas expressarem sua identidade, sentimentos e estilo através de pequenos detalhes cheios de significado.</p></div>
-<div class="info-card reveal"><span class="diferencial-icon"><i class="ri-eye-line"></i></span><h3>Visão</h3><p>Crescer como um estúdio criativo reconhecido pela delicadeza e autenticidade, levando produtos, serviços digitais e projetos autorais para cada vez mais pessoas.</p></div>
-<div class="info-card reveal"><span class="diferencial-icon"><i class="ri-heart-3-line"></i></span><h3>Valores</h3><ul class="lista-check"><li>Carinho nos detalhes</li><li>Criatividade</li><li>Significado</li><li>Delicadeza</li><li>Autenticidade</li></ul></div></div></div></section>
-<section id="diferenciais">
+
+  <section id="mvv">
+    <div class="container">
+      <span class="section-tag reveal">Quem somos</span>
+      <h2 class="section-title reveal">Missão, Visão e <em>Valores</em></h2>
+      <div class="info-grid info-grid--3">
+
+        <div class="info-card reveal">
+          <span class="diferencial-icon"><i class="ri-focus-3-line"></i></span>
+          <h3>Missão</h3>
+          <p>Criar produtos e soluções delicados, criativos e personalizados que permitam às pessoas expressarem sua identidade, sentimentos e estilo através de pequenos detalhes cheios de significado.</p>
+        </div>
+
+        <div class="info-card reveal">
+          <span class="diferencial-icon"><i class="ri-eye-line"></i></span>
+          <h3>Visão</h3>
+          <p>Crescer como um estúdio criativo reconhecido pela delicadeza e autenticidade, levando produtos, serviços digitais e projetos autorais para cada vez mais pessoas.</p>
+        </div>
+
+        <div class="info-card reveal">
+          <span class="diferencial-icon"><i class="ri-heart-3-line"></i></span>
+          <h3>Valores</h3>
+          <ul class="lista-check">
+            <li>Carinho nos detalhes</li>
+            <li>Criatividade</li>
+            <li>Significado</li>
+            <li>Delicadeza</li>
+            <li>Autenticidade</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="diferenciais">
     <div class="container">
       <span class="section-tag reveal">Por que a Thau Luna?</span>
       <h2 class="section-title reveal">O que nos torna <em>especiais</em></h2>
       <p class="section-desc reveal">Não criamos só produtos — criamos significado, carinho e identidade.</p>
+
       <div class="info-grid info-grid--3">
-        <div class="info-card reveal"><span class="diferencial-icon"><i class="ri-edit-2-line"></i></span><h3>Personalização</h3><p>Pulseiras e chaveiros com seu nome, inicial ou mensagem especial.</p></div>
-        <div class="info-card reveal"><span class="diferencial-icon"><i class="ri-computer-line"></i></span><h3>Físico + Digital</h3><p>Produtos físicos e serviços digitais reunidos em um só estúdio criativo.</p></div>
-        <div class="info-card reveal"><span class="diferencial-icon"><i class="ri-sparkling-line"></i></span><h3>Estética Encantadora</h3><p>Visual feminino, fofo e mágico — inspirado em Disney, fé e amizade.</p></div>
-        <div class="info-card reveal"><span class="diferencial-icon"><i class="ri-price-tag-3-line"></i></span><h3>Preços Acessíveis</h3><p>Qualidade e carinho a partir de R$4,99.</p></div>
-        <div class="info-card reveal"><span class="diferencial-icon"><i class="ri-gift-line"></i></span><h3>Presente Perfeito</h3><p>Combos, kits e Box Surprise pra presentear com estilo.</p></div>
-        <div class="info-card reveal"><span class="diferencial-icon"><i class="ri-moon-line"></i></span><h3>Marca de Conteúdo</h3><p>Conteúdo criativo e divertido pra inspirar o seu dia a dia.</p></div>
+
+        <div class="info-card reveal">
+          <span class="diferencial-icon"><i class="ri-edit-2-line"></i></span>
+          <h3>Personalização</h3>
+          <p>Pulseiras e chaveiros com seu nome, inicial ou mensagem especial.</p>
+        </div>
+
+        <div class="info-card reveal">
+          <span class="diferencial-icon"><i class="ri-computer-line"></i></span>
+          <h3>Físico + Digital</h3>
+          <p>Produtos físicos e serviços digitais reunidos em um só estúdio criativo.</p>
+        </div>
+
+        <div class="info-card reveal">
+          <span class="diferencial-icon"><i class="ri-sparkling-line"></i></span>
+          <h3>Estética Encantadora</h3>
+          <p>Visual feminino, fofo e mágico — inspirado em Disney, fé e amizade.</p>
+        </div>
+
+        <div class="info-card reveal">
+          <span class="diferencial-icon"><i class="ri-price-tag-3-line"></i></span>
+          <h3>Preços Acessíveis</h3>
+          <p>Qualidade e carinho a partir de R$4,99.</p>
+        </div>
+
+        <div class="info-card reveal">
+          <span class="diferencial-icon"><i class="ri-gift-line"></i></span>
+          <h3>Presente Perfeito</h3>
+          <p>Combos, kits e Box Surprise pra presentear com estilo.</p>
+        </div>
+
+        <div class="info-card reveal">
+          <span class="diferencial-icon"><i class="ri-moon-line"></i></span>
+          <h3>Marca de Conteúdo</h3>
+          <p>Conteúdo criativo e divertido pra inspirar o seu dia a dia.</p>
+        </div>
+
       </div>
     </div>
   </section>
-<section id="tl-design">
-  <div class="container">
 
-    <span class="section-tag reveal">TL DESIGN</span>
+  <section id="tl-design">
+    <div class="container">
+      <span class="section-tag reveal">TL DESIGN</span>
+      <h2 class="section-title reveal">Sites e <em>Identidade Visual</em></h2>
+      <p class="section-desc reveal">Criação de sites modernos, biolinks e identidade visual para marcas que querem crescer online com presença profissional.</p>
 
-    <h2 class="section-title reveal">
-      Sites e <em>Identidade Visual</em>
-    </h2>
+      <div class="tl-grid">
 
-    <p class="section-desc reveal">
-      Criação de sites modernos, biolinks e identidade visual para marcas que querem crescer online com presença profissional.
-    </p>
+        <div class="info-card tl-card reveal">
+          <span class="tl-icon"><i class="ri-computer-line"></i></span>
+          <h3>Sites Institucionais</h3>
+          <p>Sites elegantes, responsivos e focados em conversão e autoridade.</p>
+        </div>
 
-    <div class="tl-grid">
+        <div class="info-card tl-card reveal">
+          <span class="tl-icon"><i class="ri-links-line"></i></span>
+          <h3>Biolinks Personalizados</h3>
+          <p>Páginas modernas para Instagram que aumentam cliques e vendas.</p>
+        </div>
 
-      <div class="info-card tl-card reveal">
-        <span class="tl-icon"><i class="ri-computer-line"></i></span>
-        <h3>Sites Institucionais</h3>
-        <p>Sites elegantes, responsivos e focados em conversão e autoridade.</p>
+        <div class="info-card tl-card reveal">
+          <span class="tl-icon"><i class="ri-palette-line"></i></span>
+          <h3>Identidade Visual</h3>
+          <p>Criação de identidade completa para marcas que querem se destacar.</p>
+        </div>
+
       </div>
 
-      <div class="info-card tl-card reveal">
-        <span class="tl-icon"><i class="ri-links-line"></i></span>
-        <h3>Biolinks Personalizados</h3>
-        <p>Páginas modernas para Instagram que aumentam cliques e vendas.</p>
+      <div class="tl-cta reveal">
+        <p>Vamos transformar sua ideia em um projeto real?</p>
+        <a href="https://wa.me/5585987511775" class="btn-primary">Solicitar Orçamento</a>
       </div>
-
-      <div class="info-card tl-card reveal">
-        <span class="tl-icon"><i class="ri-palette-line"></i></span>
-        <h3>Identidade Visual</h3>
-        <p>Criação de identidade completa para marcas que querem se destacar.</p>
-      </div>
-
     </div>
+  </section>
 
-    <div class="tl-cta reveal">
-      <p>Vamos transformar sua ideia em um projeto real?</p>
-      <a href="https://wa.me/5585987511775" class="btn-primary">
-        Solicitar Orçamento
-      </a>
-    </div>
-
-  </div>
-  
-</section>
-<section id="produtos-servicos">
+  <section id="produtos-servicos">
     <div class="container">
 
       <span class="section-tag reveal">O que oferecemos</span>
@@ -135,6 +294,7 @@
             <p class="ps-bloco-desc">Acessórios personalizados criados com carinho para transformar momentos simples em lembranças especiais.</p>
           </div>
         </div>
+
         <div class="ps-produtos-grid">
 
           <div class="ps-produto-card">
@@ -148,14 +308,31 @@
             </ul>
           </div>
 
-
           <div class="ps-produto-card">
             <span class="ps-produto-emoji"><i class="ri-key-2-line"></i></span>
             <h4>Chaveiros Personalizados</h4>
             <ul class="ps-preco-lista">
-              <li><div><span>Chaveiro Personalizado Simples</span><small>Acrílico com a imagem ou arte escolhida por você.</small></div><strong>R$ 12,00</strong></li>
-              <li><div><span>Chaveiro com Miçangas</span><small>Com miçangas montadas à mão nas cores que você escolher.</small></div><strong>R$ 14,99</strong></li>
-              <li><div><span>Chaveiro com Pingente</span><small>Com pingente delicado combinando com o tema.</small></div><strong>R$ 15,00</strong></li>
+              <li>
+                <div>
+                  <span>Chaveiro Personalizado Simples</span>
+                  <small>Acrílico com a imagem ou arte escolhida por você.</small>
+                </div>
+                <strong>R$ 12,00</strong>
+              </li>
+              <li>
+                <div>
+                  <span>Chaveiro com Miçangas</span>
+                  <small>Com miçangas montadas à mão nas cores que você escolher.</small>
+                </div>
+                <strong>R$ 14,99</strong>
+              </li>
+              <li>
+                <div>
+                  <span>Chaveiro com Pingente</span>
+                  <small>Com pingente delicado combinando com o tema.</small>
+                </div>
+                <strong>R$ 15,00</strong>
+              </li>
             </ul>
           </div>
 
@@ -196,6 +373,7 @@
             <p class="ps-bloco-desc">Sites modernos, responsivos e personalizados para pequenos negócios, marcas, projetos e profissionais que desejam ter presença digital.</p>
           </div>
         </div>
+
         <div class="ps-servico-grid">
           <div class="ps-servico-tipos">
             <p class="ps-servico-label">Tipos de site:</p>
@@ -204,12 +382,14 @@
               <span class="ps-tipo-chip">Site de Catálogo</span>
             </div>
           </div>
+
           <div class="ps-destaques-grid">
             <div class="ps-destaque-item"><i class="ri-layout-masonry-line"></i><span>Layout personalizado</span></div>
             <div class="ps-destaque-item"><i class="ri-smartphone-line"></i><span>Adaptado para celulares</span></div>
             <div class="ps-destaque-item"><i class="ri-sparkling-line"></i><span>Design moderno</span></div>
             <div class="ps-destaque-item"><i class="ri-customer-service-2-line"></i><span>Suporte durante o desenvolvimento</span></div>
           </div>
+
           <p class="ps-consulta">✦ Valores sob consulta</p>
         </div>
       </div>
@@ -223,6 +403,7 @@
             <p class="ps-bloco-desc">Criação de artes personalizadas para divulgação, redes sociais, identidade visual e materiais digitais.</p>
           </div>
         </div>
+
         <div class="ps-servico-grid">
           <div class="ps-destaques-grid">
             <div class="ps-destaque-item"><i class="ri-instagram-line"></i><span>Artes para Instagram</span></div>
@@ -230,6 +411,7 @@
             <div class="ps-destaque-item"><i class="ri-mail-open-line"></i><span>Convites digitais</span></div>
             <div class="ps-destaque-item"><i class="ri-price-tag-3-line"></i><span>Materiais promocionais</span></div>
           </div>
+
           <p class="ps-consulta">✦ Valores sob consulta</p>
         </div>
       </div>
@@ -248,88 +430,188 @@
 
     </div>
   </section>
-<section id="lunas-library">
-  <div class="container">
-    <div class="lib-card reveal">
-      <span class="lib-icon"><i class="ri-quill-pen-line"></i></span>
-      <span class="section-tag">Braço literário e digital</span>
-      <h2 class="section-title">Luna's <em>Library</em></h2>
-      <p class="lib-lead">Um espaço dedicado à literatura, à criatividade e à experiência dos leitores.</p>
-      <p class="lib-text">A Luna's Library é o braço literário e digital da Thau Luna Studio. Um projeto em desenvolvimento, pensado para explorar novas formas de conectar histórias e leitores.</p>
-      <span class="lib-status"><i class="ri-seedling-line"></i> Em desenvolvimento</span>
+
+  <section id="lunas-library">
+    <div class="container">
+      <div class="lib-card reveal">
+        <span class="lib-icon"><i class="ri-quill-pen-line"></i></span>
+        <span class="section-tag">Braço literário e digital</span>
+        <h2 class="section-title">Luna's <em>Library</em></h2>
+        <p class="lib-lead">Um espaço dedicado à literatura, à criatividade e à experiência dos leitores.</p>
+        <p class="lib-text">A Luna's Library é o braço literário e digital da Thau Luna Studio. Um projeto em desenvolvimento, pensado para explorar novas formas de conectar histórias e leitores.</p>
+        <span class="lib-status"><i class="ri-seedling-line"></i> Em desenvolvimento</span>
+      </div>
     </div>
-  </div>
-</section>
-<section id="identidade">
-  <div class="container">
-    <span class="section-tag reveal">Identidade visual</span>
-    <h2 class="section-title reveal">A cara da <em>Thau Luna Studio</em></h2>
-    <p class="section-desc reveal">Delicadeza, feminilidade, criatividade e acolhimento, em uma paleta rosada e uma assinatura inconfundível.</p>
+  </section>
 
-    <div class="idv-grid">
-      <figure class="idv-tile idv-tile--cereja reveal"><img src="logo-creme.png" alt="Logotipo Thau Luna em creme sobre rosa cereja"></figure>
-      <figure class="idv-tile idv-tile--creme reveal"><img src="logo-cereja.png" alt="Logotipo Thau Luna em rosa cereja sobre creme"></figure>
-      <figure class="idv-tile idv-tile--nevoa reveal"><img src="mono-lua.png" alt="Monograma TL com lua"></figure>
+  <section id="identidade">
+    <div class="container">
+      <span class="section-tag reveal">Identidade visual</span>
+      <h2 class="section-title reveal">A cara da <em>Thau Luna Studio</em></h2>
+      <p class="section-desc reveal">Delicadeza, feminilidade, criatividade e acolhimento, em uma paleta rosada e uma assinatura inconfundível.</p>
+
+      <div class="idv-grid">
+        <figure class="idv-tile idv-tile--cereja reveal"><img src="logo-creme.png" alt="Logotipo Thau Luna em creme sobre rosa cereja"></figure>
+        <figure class="idv-tile idv-tile--creme reveal"><img src="logo-cereja.png" alt="Logotipo Thau Luna em rosa cereja sobre creme"></figure>
+        <figure class="idv-tile idv-tile--nevoa reveal"><img src="mono-lua.png" alt="Monograma TL com lua"></figure>
+      </div>
+
+      <h3 class="idv-sub reveal">Paleta oficial</h3>
+      <div class="pal-grid reveal">
+        <div class="pal-sw"><span class="pal-chip pal-cereja"></span><b>Rosa Cereja</b><small>#C85E71 · Cor principal</small></div>
+        <div class="pal-sw"><span class="pal-chip pal-goiaba"></span><b>Rosa Goiaba</b><small>#D9788D · Complementar</small></div>
+        <div class="pal-sw"><span class="pal-chip pal-suave"></span><b>Rosa Suave</b><small>#EFBAB7 · Complementar</small></div>
+        <div class="pal-sw"><span class="pal-chip pal-nevoa"></span><b>Rosa Névoa</b><small>#F7DCDC · Fundos delicados</small></div>
+        <div class="pal-sw"><span class="pal-chip pal-champ"></span><b>Bege Champagne</b><small>#F5E7DA · Tom neutro quente</small></div>
+        <div class="pal-sw"><span class="pal-chip pal-creme"></span><b>Creme Porcelana</b><small>#FFF7F1 · Fundo principal</small></div>
+      </div>
+
+      <div class="idv-type reveal">
+        <div class="aa">Aa</div>
+        <div>
+          <p class="pf-display">Cormorant Garamond</p>
+          <p class="pf-sans">Títulos elegantes, com DM Sans para a leitura. A escrita cursiva vive só na logo.</p>
+        </div>
+      </div>
+
+      <div class="tl-cta reveal">
+        <p>Quer uma identidade assim para a sua marca?</p>
+        <a href="https://wa.me/5585987511775" target="_blank" rel="noopener" class="btn-primary">Solicitar Orçamento</a>
+      </div>
     </div>
+  </section>
 
-    <h3 class="idv-sub reveal">Paleta oficial</h3>
-    <div class="pal-grid reveal">
-      <div class="pal-sw"><span class="pal-chip pal-cereja"></span><b>Rosa Cereja</b><small>#C85E71 · Cor principal</small></div>
-      <div class="pal-sw"><span class="pal-chip pal-goiaba"></span><b>Rosa Goiaba</b><small>#D9788D · Complementar</small></div>
-      <div class="pal-sw"><span class="pal-chip pal-suave"></span><b>Rosa Suave</b><small>#EFBAB7 · Complementar</small></div>
-      <div class="pal-sw"><span class="pal-chip pal-nevoa"></span><b>Rosa Névoa</b><small>#F7DCDC · Fundos delicados</small></div>
-      <div class="pal-sw"><span class="pal-chip pal-champ"></span><b>Bege Champagne</b><small>#F5E7DA · Tom neutro quente</small></div>
-      <div class="pal-sw"><span class="pal-chip pal-creme"></span><b>Creme Porcelana</b><small>#FFF7F1 · Fundo principal</small></div>
-    </div>
-
-    <div class="idv-type reveal"><div class="aa">Aa</div><div><p class="pf-display">Cormorant Garamond</p><p class="pf-sans">Títulos elegantes, com DM Sans para a leitura. A escrita cursiva vive só na logo.</p></div></div>
-
-    <div class="tl-cta reveal"><p>Quer uma identidade assim para a sua marca?</p><a href="https://wa.me/5585987511775" target="_blank" rel="noopener" class="btn-primary">Solicitar Orçamento</a></div>
-  </div>
-</section>
-<section id="depoimentos">
+  <section id="depoimentos">
     <div class="container">
       <span class="section-tag reveal">Quem já amou</span>
       <h2 class="section-title reveal">Avaliações dos <em>clientes</em></h2>
       <p class="section-desc reveal">O carinho de cada cliente é o que nos motiva a continuar.</p>
+
       <div class="depoimentos-grid">
-        <div class="depoimento-card reveal"><span class="depoimento-aspas">"</span><p class="depoimento-texto">Amiga, você arrasou!!! Os chaveiros ficaram lindos demais e de perfeita qualidade!</p><div class="depoimento-autor"><div class="depoimento-avatar">M</div><div><p class="depoimento-nome">Mariana F.</p><p class="depoimento-estrelas">★★★★★</p></div></div></div>
-        <div class="depoimento-card reveal"><span class="depoimento-aspas">"</span><p class="depoimento-texto">A pulseira ficou ótima na minha amiga, ela curtiu demais! E o chaveiro ficou muito massa.</p><div class="depoimento-autor"><div class="depoimento-avatar">G</div><div><p class="depoimento-nome">Gabriel S.</p><p class="depoimento-estrelas">★★★★★</p></div></div></div>
-        <div class="depoimento-card reveal"><span class="depoimento-aspas">"</span><p class="depoimento-texto">Achei tudo muito lindo e criativo. Amei mesmo!</p><div class="depoimento-autor"><div class="depoimento-avatar">B</div><div><p class="depoimento-nome">Beatriz L.</p><p class="depoimento-estrelas">★★★★★</p></div></div></div>
-        <div class="depoimento-card reveal"><span class="depoimento-aspas">"</span><p class="depoimento-texto">Eu amei o chaveiro, muito bonito, adorei de verdade.</p><div class="depoimento-autor"><div class="depoimento-avatar">L</div><div><p class="depoimento-nome">Livia F.</p><p class="depoimento-estrelas">★★★★★</p></div></div></div>
+
+        <div class="depoimento-card reveal">
+          <span class="depoimento-aspas">"</span>
+          <p class="depoimento-texto">Amiga, você arrasou!!! Os chaveiros ficaram lindos demais e de perfeita qualidade!</p>
+          <div class="depoimento-autor">
+            <div class="depoimento-avatar">M</div>
+            <div>
+              <p class="depoimento-nome">Mariana F.</p>
+              <p class="depoimento-estrelas">★★★★★</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="depoimento-card reveal">
+          <span class="depoimento-aspas">"</span>
+          <p class="depoimento-texto">A pulseira ficou ótima na minha amiga, ela curtiu demais! E o chaveiro ficou muito massa.</p>
+          <div class="depoimento-autor">
+            <div class="depoimento-avatar">G</div>
+            <div>
+              <p class="depoimento-nome">Gabriel S.</p>
+              <p class="depoimento-estrelas">★★★★★</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="depoimento-card reveal">
+          <span class="depoimento-aspas">"</span>
+          <p class="depoimento-texto">Achei tudo muito lindo e criativo. Amei mesmo!</p>
+          <div class="depoimento-autor">
+            <div class="depoimento-avatar">B</div>
+            <div>
+              <p class="depoimento-nome">Beatriz L.</p>
+              <p class="depoimento-estrelas">★★★★★</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="depoimento-card reveal">
+          <span class="depoimento-aspas">"</span>
+          <p class="depoimento-texto">Eu amei o chaveiro, muito bonito, adorei de verdade.</p>
+          <div class="depoimento-autor">
+            <div class="depoimento-avatar">L</div>
+            <div>
+              <p class="depoimento-nome">Livia F.</p>
+              <p class="depoimento-estrelas">★★★★★</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
-<section id="politicas">
+
+  <section id="politicas">
     <div class="container">
       <span class="section-tag reveal">Informações</span>
       <h2 class="section-title reveal">Políticas da <em>Marca</em></h2>
+
       <div class="info-grid info-grid--4">
-        <div class="info-card reveal"><span class="diferencial-icon"><i class="ri-box-3-line"></i></span><h3>Produção &amp; Entrega</h3><p>Produtos feitos sob encomenda com prazo de até 10 dias úteis. Digitais enviados após confirmação do pagamento.</p></div>
-        <div class="info-card reveal"><span class="diferencial-icon"><i class="ri-refresh-line"></i></span><h3>Trocas &amp; Devoluções</h3><p>Solicitações em até 4 dias após o recebimento. Aceito em caso de defeito ou erro no envio. Produtos personalizados e digitais não possuem troca.</p></div>
-        <div class="info-card reveal"><span class="diferencial-icon"><i class="ri-bank-card-line"></i></span><h3>Pagamento</h3><p>Aceitamos Pix, PicPay e cartão de crédito. A produção começa após confirmação do pagamento.</p></div>
-        <div class="info-card reveal"><span class="diferencial-icon"><i class="ri-lock-line"></i></span><h3>Privacidade</h3><p>Seus dados são usados apenas para processar pedidos e comunicação. Não compartilhamos informações com terceiros.</p></div>
+
+        <div class="info-card reveal">
+          <span class="diferencial-icon"><i class="ri-box-3-line"></i></span>
+          <h3>Produção &amp; Entrega</h3>
+          <p>Produtos feitos sob encomenda com prazo de até 10 dias úteis. Digitais enviados após confirmação do pagamento.</p>
+        </div>
+
+        <div class="info-card reveal">
+          <span class="diferencial-icon"><i class="ri-refresh-line"></i></span>
+          <h3>Trocas &amp; Devoluções</h3>
+          <p>Solicitações em até 4 dias após o recebimento. Aceito em caso de defeito ou erro no envio. Produtos personalizados e digitais não possuem troca.</p>
+        </div>
+
+        <div class="info-card reveal">
+          <span class="diferencial-icon"><i class="ri-bank-card-line"></i></span>
+          <h3>Pagamento</h3>
+          <p>Aceitamos Pix, PicPay e cartão de crédito. A produção começa após confirmação do pagamento.</p>
+        </div>
+
+        <div class="info-card reveal">
+          <span class="diferencial-icon"><i class="ri-lock-line"></i></span>
+          <h3>Privacidade</h3>
+          <p>Seus dados são usados apenas para processar pedidos e comunicação. Não compartilhamos informações com terceiros.</p>
+        </div>
+
       </div>
     </div>
   </section>
-<section id="contato">
+
+  <section id="contato">
     <div class="container">
       <span class="section-tag reveal">Vamos conversar?</span>
       <h2 class="section-title reveal">Encontre a gente nas <em>redes</em></h2>
       <p class="section-desc reveal">Siga para ver novidades, bastidores e promoções exclusivas!</p>
+
       <div class="redes-grid reveal">
-        <a href="https://www.instagram.com/thauluna_studio" target="_blank" rel="noopener" class="rede-btn rede-instagram"><i class="ri-instagram-line"></i> @thauluna_studio</a>
-        <a href="https://www.pinterest.com/thaulunaacessorios" target="_blank" rel="noopener" class="rede-btn rede-pinterest"><i class="ri-pinterest-line"></i> Pinterest</a>
-        <a href="https://thauanneluna.github.io/ThauLunaStudio/" target="_blank" rel="noopener" class="rede-btn rede-loja"><i class="ri-shopping-bag-line"></i> Acessar Loja</a>
+        <a href="https://www.instagram.com/thauluna_studio" target="_blank" rel="noopener" class="rede-btn rede-instagram">
+          <i class="ri-instagram-line"></i> @thauluna_studio
+        </a>
+
+        <a href="https://www.pinterest.com/thaulunaacessorios" target="_blank" rel="noopener" class="rede-btn rede-pinterest">
+          <i class="ri-pinterest-line"></i> Pinterest
+        </a>
+
+        <a href="https://thauanneluna.github.io/ThauLunaStudio/" target="_blank" rel="noopener" class="rede-btn rede-loja">
+          <i class="ri-shopping-bag-line"></i> Acessar Loja
+        </a>
       </div>
+
       <p class="contato-msg reveal">"Feito com carinho só pra você"</p>
     </div>
   </section>
-  <footer class="site-footer"><div class="container footer-inner">
-    <img class="logo-light" src="logo-cereja.png" alt="Thau Luna Studio" height="48"><img class="logo-dark" src="logo-creme.png" alt="" height="48">
-    <p>© 2025 <span>Thau Luna Studio</span> · Todos os direitos reservados · Onde cada detalhe conta!</p>
-  </div></footer>
-  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo"><i class="ri-arrow-up-line"></i></button>
-<script src="script.js"></script>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <img class="logo-light" src="logo-cereja.png" alt="Thau Luna Studio" height="48">
+      <img class="logo-dark" src="logo-creme.png" alt="" height="48">
+      <p>© 2025 <span>Thau Luna Studio</span> · Todos os direitos reservados · Onde cada detalhe conta!</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <i class="ri-arrow-up-line"></i>
+  </button>
+
+  <script src="script.js"></script>
 </body>
-</html>
+  </html>
