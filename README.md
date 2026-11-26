@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://thaulunastudio.lovable.app">
+  <a href="https://thauanneluna.github.io/ThauLunaStudio/">
     <img src="https://img.shields.io/badge/🌐%20Visitar%20Site-F8BBD0?style=for-the-badge">
   </a>
   <a href="https://www.instagram.com/thauluna_studio">
